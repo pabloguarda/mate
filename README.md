@@ -46,7 +46,7 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 #### Performance functions
 <img width="370" img src="./output/figures/experiments/siouxfalls-kernel-link-performance-functions-mate.png" alt="kernel-matrix-siouxfalls" /> <img width="330" img src="./output/figures/experiments/siouxfalls-comparison-all-link-performance-functions-mate.png" alt="performance-functions-siouxfalls" /> 
 
-#### Origin-demand estimation
+#### Origin-destination demand estimation
 
 <img width="520" img src="./output/figures/experiments/siouxfalls-comparison-heatmaps-ode-period-0.png" alt="od-sioux" />
 
