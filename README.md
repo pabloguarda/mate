@@ -74,11 +74,9 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 <!-- <img width="200" img src="./output/figures/results/fresno-utility-periods-mate.png" alt="fresno-utility-periods" /> -->
 
 ## Collaboration
-=============
 
 For any questions or interest in collaborating on this project, please open an issue in this repository. This package was developed under the guidance of Prof. Sean Qian. 
 
 ## 🌟 Loved the Project? Give Us a Star!
-=============
 
 We're thrilled to see you here! If you find this codebase useful for your project or it has been a helpful resource, please consider giving it a star. 🌟 Your support means a lot and it also helps others discover our work.
