@@ -1,7 +1,7 @@
 Macroscopic Traffic Estimation (MaTE)
 ==============================================================================
 
-``MaTE`` is a data-driven macroscopic model for estimating traffic flow and travel times across entire networks using data-driven macroscopic. ``MaTE`` leverages large-scale traffic data to offer accurate, wide-range predictions, making it ideal for urban planning, traffic management, and transportation analysis. This problem is critical in transportation planning applications where the sensor coverage is low and the planned interventions have network-wide impacts. 
+``MaTE`` is a data-driven macroscopic model for estimating traffic flow and travel times across the entire transportation networks. ``MaTE`` leverages large-scale traffic data to offer accurate, wide-range predictions, making it ideal for urban planning, traffic management, and transportation analysis. This problem is critical in transportation planning applications where the sensor coverage is low and the planned interventions have network-wide impacts. 
 
 ``MaTE`` is trained using automatic differentiation tools from Tensorflow. It also incorporates a neural network in one of the layers to enrich 
 the mapping of traffic flows into travel times, namely, the performance functions. The input data consists of link characteristics, such as the maximum capacity (flow/hour) and the free flow speed or travel time. 
