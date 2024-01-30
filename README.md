@@ -9,19 +9,17 @@ The training data are primarily traffic counts and travel time measurements coll
 
 The following two diagrams summarize our modeling framework:
 
-### Model architecture
+#### Model architecture
 <img width="600" img src="./misc/mate-general-architecture.png" alt="framework-1" />
 
-### Validation and model selection strategy
+#### Validation and model selection strategy
 <img width="500" img src="./misc/mate-validation-strategy.png" alt="framework-2" />
 
 ## Preprint
-=================
 
 To understand the theory behind the algorithms and the use cases of this codebase, a link with a preprint will be added soon. 
 
 ## Development Setup
-=================
 
 1. Clone this repository.
 2. Download and install Anaconda: https://docs.anaconda.com/anaconda/install/index.html
