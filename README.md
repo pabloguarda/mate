@@ -15,12 +15,12 @@ The following two diagrams summarize our modeling framework:
 ### Validation and model selection strategy
 <img width="500" img src="./misc/mate-validation-strategy.png" alt="framework-2" />
 
-Preprint
+## Preprint
 =================
 
 To understand the theory behind the algorithms and the use cases of this codebase, a link with a preprint will be added soon. 
 
-Development Setup
+## Development Setup
 =================
 
 1. Clone this repository.
@@ -73,12 +73,12 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 <div>
 <!-- <img width="200" img src="./output/figures/results/fresno-utility-periods-mate.png" alt="fresno-utility-periods" /> -->
 
-Collaboration
+## Collaboration
 =============
 
 For any questions or interest in collaborating on this project, please open an issue in this repository. This package was developed under the guidance of Prof. Sean Qian. 
 
-🌟 Loved the Project? Give Us a Star!
+## 🌟 Loved the Project? Give Us a Star!
 =============
 
 We're thrilled to see you here! If you find this codebase useful for your project or it has been a helpful resource, please consider giving it a star. 🌟 Your support means a lot and it also helps others discover our work.
