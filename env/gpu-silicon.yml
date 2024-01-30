@@ -1,0 +1,19 @@
+name: mate
+channels:
+  - conda-forge
+  - apple
+dependencies:
+  - python>=3.8
+  - jupyter
+  - pip
+  - openmatrix
+  - conda-forge::statsmodels
+  - conda-forge::pykrige
+  - conda-forge::geopandas
+  - contextily
+  - apple::tensorflow-deps == 2.10
+  - pip:
+     - git+https://github.com/pabloguarda/pesuelogit.git@conda-dependency
+     - tensorflow-macos == 2.12 # == 2.10.0 #2.9.0
+     - tensorflow-metal == 0.8.0 # == 0.6.0 #0.5.0
+#  Source: https://developer.apple.com/metal/tensorflow-plugin/

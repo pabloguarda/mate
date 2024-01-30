@@ -1,0 +1,18 @@
+# Usage: $ mamba env create -f cpu-silicon.yml
+name: mate
+channels:
+  - conda-forge
+  - apple
+dependencies:
+  - python>=3.8
+  - jupyter
+  - pip
+  - apple::tensorflow-deps == 2.10
+  - statsmodels
+  - openmatrix
+  - pykrige
+  - geopandas
+  - contextily
+  - pip:
+    - git+https://github.com/pabloguarda/pesuelogit.git@conda-dependency
+    - tensorflow-macos == 2.9 #2.10.0

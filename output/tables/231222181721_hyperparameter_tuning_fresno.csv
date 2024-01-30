@@ -1,0 +1,7 @@
+component,dataset,value,lambda_od,lambda_traveltime,lambda_flow,lambda_equilibrium,relative_gap,replicate
+equilibrium,training,1702259.325,0,1,1,0.0,1.0588795,0
+equilibrium,validation,1702259.325,0,1,1,0.0,1.0588795,0
+flow,training,853992.8875,0,1,1,0.0,1.0588795,0
+flow,validation,2811684.55,0,1,1,0.0,1.0588795,0
+traveltime,training,0.00262594991363585,0,1,1,0.0,1.0588795,0
+traveltime,validation,0.06300280932337046,0,1,1,0.0,1.0588795,0
