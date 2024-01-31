@@ -10,14 +10,25 @@ The training data are primarily traffic counts and travel time measurements coll
 The following two diagrams summarize our modeling framework:
 
 #### Model architecture
-<img width="600" img src="./misc/mate-general-architecture.png" alt="framework-1" />
+<img width="600" img src="./docs/images/mate-general-architecture.png" alt="framework-1" />
 
 #### Validation and model selection strategy
-<img width="500" img src="./misc/mate-validation-strategy.png" alt="framework-2" />
+<img width="500" img src="./docs/images/mate-validation-strategy.png" alt="framework-2" />
 
 ## Preprint
 
-To understand the theory behind the algorithms and the use cases of this codebase, a link with a preprint will be added soon. 
+To understand the theory behind the algorithms and the use cases of this codebase, please review the preprint at http://arxiv.org/abs/2401.17095. You can cite preprint as:
+
+```
+@misc{GuardaQian2024,
+      title={Traffic estimation in unobserved network locations using data-driven macroscopic models}, 
+      author={Pablo Guarda and Sean Qian},
+      year={2024},
+      eprint={2401.17095},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
 
 ## Development Setup
 
@@ -74,6 +85,10 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 ## Collaboration
 
 For any questions or interest in collaborating on this project, please open an issue in this repository. This package was developed under the guidance of Prof. Sean Qian. 
+
+## Funding 
+
+This project was partially funded through National Science Foundation Grant CMMI-1751448: [Probabilistic Network Flow Theory](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1751448)
 
 ## 🌟 Loved the Project? Give Us a Star!
 
