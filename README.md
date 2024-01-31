@@ -20,7 +20,7 @@ The following two diagrams summarize our modeling framework:
 To understand the theory behind the algorithms and the use cases of this codebase, please review the preprint at http://arxiv.org/abs/2401.17095. You can cite preprint as:
 
 ```
-@misc{GuardaQian2024,
+@misc{GuardaQian2024macroscopic,
       title={Traffic estimation in unobserved network locations using data-driven macroscopic models}, 
       author={Pablo Guarda and Sean Qian},
       year={2024},
