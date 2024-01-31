@@ -17,7 +17,7 @@ The following two diagrams summarize our modeling framework:
 
 ## Preprint
 
-To understand the theory behind the algorithms and the use cases of this codebase, please review the preprint at http://arxiv.org/abs/2401.17095. You can cite preprint as:
+To understand the theory behind the algorithms and the use cases of this codebase, you can review the preprint at http://arxiv.org/abs/2401.17095. Please cite this work as:
 
 ```
 @misc{GuardaQian2024macroscopic,
