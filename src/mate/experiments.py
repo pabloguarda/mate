@@ -26,7 +26,7 @@ def simulate_features(n_days, time_variation=False, **kwargs) -> pd.DataFrame:
     df = pd.concat(df_list)
     return df
 
-def simulate_mtp_data(model: mate,
+def simulate_suelogit_data(model: mate,
                              X,
                              optimizer,
                              threshold_relative_gap=1e-5,
