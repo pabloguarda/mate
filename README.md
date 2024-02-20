@@ -40,7 +40,7 @@ To understand the theory behind the algorithms and the use cases of this codebas
    | You can also setup the enviroment with the yml files ``env/cpu-silicon.yml`` or
    | ``env/gpu-silicon.yml`` to train models with cpu and gpu in Apple Silicon, respectively.
 
-This repository is currently compatible with Python 3.10.x. 
+<!-- This repository is currently compatible with Python 3.10.x.  -->
 
 ## Examples
 
