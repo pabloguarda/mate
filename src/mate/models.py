@@ -1773,6 +1773,7 @@ class mate(PESUELOGIT):
                 tf.norm(output_link_flow - input_link_flow, 1)
                 / (normalizer * tf.norm(input_link_flow, 1))).numpy()
         return relative_gap
+    
 
     def fit(self,
             X_train: tf.Tensor,
@@ -1969,7 +1970,7 @@ class mate(PESUELOGIT):
                     # f"psc_factor = {self.psc_factor.numpy()}, "
                     f"avg theta fixed effect = {np.mean(self.fixed_effect):0.2g}, "
                     # f"avg abs diff demand ={np.nanmean(np.abs(self.q - self.reference_od(self.q))):0.2g}, ",end = '')
-                    f"loss prop od={train_losses[-1]['loss_od']:0.2g}, "
+                    f"loss od={train_losses[-1]['loss_od']:0.2g}, "
                     # f"loss ntrips={train_losses[-1]['loss_ntrips']:0.2g}, "
                     f"total trips={np.array2string(np.round(np.sum(self.q, axis=1)), formatter={'float': lambda x: f'{x:.2e}'})}, ",
                     end='', flush=True)
@@ -2883,7 +2884,7 @@ def create_mate_model_tntp(network, n_periods, reference_g, features_Z, referenc
         od_parameters=ODParameters(key='od',
                                    # initial_values= generation_factors.values[:,np.newaxis]*network.q.flatten(),
                                    initial_values=tf.stack(reference_q),
-                                   # reference_values={0: reference_q[0], 1:reference_q[1]},
+                                   reference_values={0: reference_q[0], 1:reference_q[1]} if reference_q is not None else None,
                                    ods=network.ods,
                                    n_nodes=len(network.nodes),
                                    n_periods=n_periods,
