@@ -84,7 +84,7 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 
 ## Collaboration
 
-For any questions or interest in collaborating on this project, please open an issue in this repository. This package was developed under the guidance of Prof. Sean Qian. 
+For any questions or interest in collaborating on this project, please open an issue in this repository. This repository was developed under the guidance of Prof. Sean Qian from Carnegie Mellon University. 
 
 ## Funding 
 
