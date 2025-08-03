@@ -33,7 +33,7 @@ Guarda, P., & Qian, S. (2025). Traffic Estimation in Unobserved Network Location
 
 
 
-<!-- ```
+```
 @misc{GuardaQian2024macroscopic,
       title={Traffic estimation in unobserved network locations using data-driven macroscopic models}, 
       author={Pablo Guarda and Sean Qian},
@@ -41,7 +41,7 @@ Guarda, P., & Qian, S. (2025). Traffic Estimation in Unobserved Network Location
       eprint={2401.17095},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
-} -->
+}
 ```
 
 ## Development Setup
@@ -51,8 +51,9 @@ Guarda, P., & Qian, S. (2025). Traffic Estimation in Unobserved Network Location
 3. Create virtual environment and install dependencies: ``conda create -n mate``
 4. Activate environment: ``conda activate mate``
 5. Install dependencies: ``conda env update -f env/cpu-intel.yml``. Replace with ``env/cpu-linux.yml`` for linux based systems. 
-   | You can also setup the enviroment with the yml files ``env/cpu-silicon.yml`` or
-   | ``env/gpu-silicon.yml`` to train models with cpu and gpu in Apple Silicon, respectively.
+   
+   You can also setup the environment with the yml files ``env/cpu-silicon.yml`` or
+   ``env/gpu-silicon.yml`` to train models with cpu and gpu in Apple Silicon, respectively.
 
 <!-- This repository is currently compatible with Python 3.10.x.  -->
 
@@ -69,6 +70,7 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 <img width="170" img src="./output/figures/experiments/siouxfalls-relative-mse-mate.png" alt="relative-mse-siouxfalls" /> <img width="170" img src="./output/figures/experiments/siouxfalls-mape-mate.png" alt="mape-siouxfalls" /> <img width="170" img src="./output/figures/experiments/siouxfalls-relative-gap-mate.png" alt="relative-gap-siouxfalls" />
 
 #### Performance functions
+
 <img width="370" img src="./output/figures/experiments/siouxfalls-kernel-link-performance-functions-mate.png" alt="kernel-matrix-siouxfalls" /> <img width="330" img src="./output/figures/experiments/siouxfalls-comparison-all-link-performance-functions-mate.png" alt="performance-functions-siouxfalls" /> 
 
 #### Origin-destination demand estimation
@@ -83,17 +85,17 @@ The folder ``examples/notebooks`` contains Jupyter notebooks with code demonstra
 <img width="170" img src="./output/figures/results/fresno-relative-mse-mate.png" alt="relative-mse-fresno" /> <img width="170" img src="./output/figures/results/fresno-mdape-mate.png" alt="mape--fresno" /> <img width="155" img src="./output/figures/results/fresno-relative-gap-period-mate.png" alt="relative-gap-fresno" />
 
 #### Performance functions
+
 <img width="370" img src="./output/figures/results/fresno-kernel-link-performance-functions-mate.png" alt="kernel-matrix-fresno" /> <img width="340" img src="./output/figures/results/fresno-comparison-all-link-performance-functions-mate.png" alt="performance-functions-fresno" /> 
 
 #### Parameter estimation
 
-<img align="top" width="190" img src="./output/figures/results/fresno-total-trips-periods-mate.png"   alt="fresno-total-trips-periods" /> <img align="top" width="170" img src="./output/figures/results/fresno-generation-periods-mate.png" alt="fresno-utility-periods"  /> <img align="top" width="180" img src="./output/figures/results/fresno-utility-periods-mate.png" alt="fresno-utility-periods" /> 
+<img align="top" width="190" img src="./output/figures/results/fresno-total-trips-periods-mate.png" alt="fresno-total-trips-periods" /> <img align="top" width="170" img src="./output/figures/results/fresno-generation-periods-mate.png" alt="fresno-utility-periods" /> <img align="top" width="180" img src="./output/figures/results/fresno-utility-periods-mate.png" alt="fresno-utility-periods" /> 
 
 #### Prediction of network-wide traffic congestion
-<div style="margin-bottom: 300px;">
-<img width="350" img src="./output/figures/results/fresno-map-flow-mate.png" alt="fresno-congestion-flow-map" style="vertical-align: top" /> 
-<img width="350" img src="./output/figures/results/fresno-map-speed-mate.png" alt="fresno-congestion-speed-map" style="vertical-align: top" /> 
-<div>
+
+<img width="350" img src="./output/figures/results/fresno-map-flow-mate.png" alt="fresno-congestion-flow-map" style="vertical-align: top" />
+<img width="350" img src="./output/figures/results/fresno-map-speed-mate.png" alt="fresno-congestion-speed-map" style="vertical-align: top" />
 <!-- <img width="200" img src="./output/figures/results/fresno-utility-periods-mate.png" alt="fresno-utility-periods" /> -->
 
 ## Collaboration
