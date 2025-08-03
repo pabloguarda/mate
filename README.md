@@ -17,9 +17,23 @@ The following two diagrams summarize our modeling framework:
 
 ## Preprint
 
-To understand the theory behind the algorithms and the use cases of this codebase, you can review the preprint at http://arxiv.org/abs/2401.17095. Please cite this work as:
+To understand the theory behind the algorithms and the use cases of this codebase, you can review the [preprint](http://arxiv.org/abs/2401.17095) or the [journal article](https://doi.org/10.1080/23249935.2025.2511820). Please cite this work as:
+
+Guarda, P., & Qian, S. (2025). Traffic Estimation in Unobserved Network Locations Using Data-Driven Macroscopic Models. *Transportmetrica A: Transport Science*. https://doi.org/10.1080/23249935.2025.2511820
 
 ```
+@article{GuardaQian2025macroscopic,
+  title={Traffic estimation in unobserved network locations using data-driven macroscopic models},
+  author={Guarda, Pablo and Qian, Sean},
+  journal={Transportmetrica A: Transport Science},
+  year={2022}
+}
+```
+
+
+
+
+<!-- ```
 @misc{GuardaQian2024macroscopic,
       title={Traffic estimation in unobserved network locations using data-driven macroscopic models}, 
       author={Pablo Guarda and Sean Qian},
@@ -27,7 +41,7 @@ To understand the theory behind the algorithms and the use cases of this codebas
       eprint={2401.17095},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
-}
+} -->
 ```
 
 ## Development Setup
