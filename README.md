@@ -50,10 +50,8 @@ Guarda, P., & Qian, S. (2025). Traffic Estimation in Unobserved Network Location
 2. Download and install Anaconda: https://docs.anaconda.com/anaconda/install/index.html
 3. Create virtual environment and install dependencies: ``conda create -n mate``
 4. Activate environment: ``conda activate mate``
-5. Install dependencies: ``conda env update -f env/cpu-intel.yml``. Replace with ``env/cpu-linux.yml`` for linux based systems. 
-   
-   You can also setup the environment with the yml files ``env/cpu-silicon.yml`` or
-   ``env/gpu-silicon.yml`` to train models with cpu and gpu in Apple Silicon, respectively.
+5. Install dependencies: ``conda env update -f env/cpu-intel.yml``. Replace with ``env/cpu-linux.yml`` for linux based systems.
+   You can also setup the environment with the yml files ``env/cpu-silicon.yml`` or ``env/gpu-silicon.yml`` to train models with cpu and gpu in Apple Silicon, respectively.
 
 <!-- This repository is currently compatible with Python 3.10.x.  -->
 
