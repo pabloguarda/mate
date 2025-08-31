@@ -30,20 +30,6 @@ Guarda, P., & Qian, S. (2025). Traffic Estimation in Unobserved Network Location
 }
 ```
 
-
-
-
-```
-@misc{GuardaQian2024macroscopic,
-      title={Traffic estimation in unobserved network locations using data-driven macroscopic models}, 
-      author={Pablo Guarda and Sean Qian},
-      year={2024},
-      eprint={2401.17095},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-```
-
 ## Development Setup
 
 1. Clone this repository.
